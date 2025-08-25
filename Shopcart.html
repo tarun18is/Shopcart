@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping site in India</title>
+    <link rel="icon" href="./img/01_shopcart-logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Shopcart.css" />
+  </head>
+  <body>
+    <header
+      style="
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <img src="./img/01_shopcart-logo.png" alt="brand logo" class="logo" />
+      <a href="./01_shop.html" class="home">Shopcart</a>
+      <div class="tasks">
+        <a href="#">Categories</a>
+        <form class="task-form">
+          <input type="text" placeholder="Search" class="search" />
+          <button type="submit">Search</button>
+        </form>
+        <a href="#" class="account"
+          >Hello, Tarun <br />
+          <span class="account-br">Account & Lists</span></a
+        >
+        <a href="#" class="orders"
+          >Returns <br />
+          <span class="orders-br"> & Orders</span></a
+        >
+        <div class="cart">
+          <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+          <a href="#">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner img -->
+    <img src="./img/01_banner.jpg" id="banner" alt="sale banner" />
+
+    <!-- Grid for shopping categories -->
+    <div class="grid-container">
+      <h2
+        style="
+          margin: 0;
+          grid-column: 1/7;
+          text-align: center;
+          font-size: 55px;
+          font-family: 'Courier New', Courier, monospace;
+        "
+      >
+        SHOP BY CATEGO₹Y
+      </h2>
+
+      <div class="grid-item item1">
+        <img src="./img/01_shop/ethnic.jpg" alt="Shop for ethnci wear" />
+        <h2>Ethnic Wear</h2>
+        <h3>50-80% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+      <div class="grid-item">
+        <img
+          src="./img/01_shop/bracelet.jpg"
+          alt="Shop for treandy bracelets"
+        />
+        <h2>Bracelets</h2>
+        <h3>30-40% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/watch.jpg" alt="Branded watches" />
+        <h2>Watches</h2>
+        <h3>40-60% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+      <div class="grid-item">
+        <img src="./img/01_shop/eyewear.jpg" alt="Trendy eyewear" />
+        <h2>Sunglasses</h2>
+        <h3>50-70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/jewellery.jpg" alt="Jewellery" />
+        <h2>Jewellery</h2>
+        <h3>30-40% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="./img/01_shop/shoes.jpg"
+          alt="Footwear for different occasions"
+        />
+        <h2>Footwear</h2>
+        <h3>70-80% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/wallets.jpg" alt="Wallets and more" />
+        <h2>Wallet</h2>
+        <h3>UPTO 60% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/grooming.jpeg" alt="Grooming products" />
+        <h2>Grooming</h2>
+        <h3>UPTO 60% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/makeup.jpeg" alt="Ladies makeup" />
+        <h2>Beauty & Makeup</h2>
+        <h3>UPTO 60% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/bags.jpg" alt="Handbags" />
+        <h2>Bags</h2>
+        <h3>40-70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/kurti.jpg" alt="kurti" />
+        <h2>Kurtis</h2>
+        <h3>UPTO 60% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/headphones.jpeg" alt="Headphones" />
+        <h2>Headphones</h2>
+        <h3>UPTO 70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/flip-flop.jpg" alt="flip-flop" />
+        <h2>Flip-Flop</h2>
+        <h3>30-70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/tshirt.jpg" alt="tshirt" />
+        <h2>Tshirt</h2>
+        <h3>50-70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/shirts.jpg" alt="shirts" />
+        <h2>Shirts</h2>
+        <h3>UPTO 50% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/western.jpg" alt="western" />
+        <h2>Western</h2>
+        <h3>40-60% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/hat.jpg" alt="hat" />
+        <h2>Hats</h2>
+        <h3>Cowboy</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item">
+        <img src="./img/01_shop/lingere.jpeg" alt="lingere" />
+        <h2>Lingerie</h2>
+        <h3>UPTO 70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item" style="grid-column: 2/3">
+        <img src="./img/01_shop/homedecor.jpg" alt="homeDecor" />
+        <h2>Home Decor</h2>
+        <h3>40-70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item" style="grid-column: 3/4">
+        <img src="./img/01_shop/trolley.jpg" alt="trolley" />
+        <h2>Trolley & Luggage</h2>
+        <h3>30-70% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item" style="grid-column: 4/5">
+        <img src="./img/01_shop/sleepwear.jpeg" alt="sleepwear" />
+        <h2>Sleep Wear</h2>
+        <h3>UPTO 50% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+
+      <div class="grid-item" style="grid-column: 5/6">
+        <img src="./img/01_shop/sports.jpg" alt="sports" />
+        <h2>Sports waer</h2>
+        <h3>30-80% OFF</h3>
+        <h2>Shop Now</h2>
+      </div>
+    </div>
+  </body>
+</html>
